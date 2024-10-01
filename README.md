@@ -11,4 +11,5 @@ low dose and ultra low dose CT scan multiple organ segmentation: https://drive.g
 Multi tracer PET cardiac and cradiac substructure segmentation: https://drive.google.com/drive/folders/1Y0Yh2YyjuWudaCIJwZkMvqWvVZlUew14?usp=drive_link
 
 for CT modalities pleae cite this paper: doi: https://doi.org/10.1101/2023.10.20.23297331
+
 for PET modalities pleae cite this paper: doi: https://doi.org/10.1101/2024.08.27.24312482
