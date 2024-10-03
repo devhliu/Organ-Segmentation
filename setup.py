@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="Organ-Segmentation",  # Replace with your package name
+    name="organsegment",  # Replace with your package name
     version="0.1.0",
     author="Yazdan Salimi",
     author_email="salimiyazdan@gmail.com",
