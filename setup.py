@@ -15,7 +15,7 @@ setup(
         # List your dependencies here
         # e.g., 'numpy', 'pandas'
         "shutils", "pandas", "tqdm",
-        "termcolor", "glob", "torch",
+        "termcolor", "glob2", "torch",
         "nnunetv2", "SimpleITK", "multiprocessing",
         "numpy", "natsort",        
     ],
