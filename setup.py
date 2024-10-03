@@ -10,7 +10,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/YazdanSalimi/Organ-Segmentation",
     packages=find_packages(),
-    py_modules=["inference", "ImageUtilities"],
+    py_modules=["predict_multi", "ImageUtilities"],
     install_requires=[
         # List your dependencies here
         # e.g., 'numpy', 'pandas'
