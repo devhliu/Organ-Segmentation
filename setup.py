@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="organsegment",  # Replace with your package name
+    name="organsegment",
     #version="0.1.0",
     author="Yazdan Salimi",
     author_email="salimiyazdan@gmail.com",
@@ -17,8 +17,8 @@ setup(
         "termcolor",
         "glob2", 
         "torch",
-        "package_name  @ git+https://github.com/MIC-DKFZ/nnUNet.git",
-        "package_name  @ git+https://github.com/FabianIsensee/hiddenlayer.git",
+        #"package_name  @ git+https://github.com/MIC-DKFZ/nnUNet.git",
+        #"package_name  @ git+https://github.com/FabianIsensee/hiddenlayer.git",
         "SimpleITK",
         "multiprocess",
         "numpy", 
@@ -27,8 +27,8 @@ setup(
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",  # You can change the license if necessary
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',  # Specify the Python version
+    python_requires='>=3.6',
 )
