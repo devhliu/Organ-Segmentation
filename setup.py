@@ -17,8 +17,6 @@ setup(
         "termcolor",
         "glob2", 
         "torch",
-        #"package_name  @ git+https://github.com/MIC-DKFZ/nnUNet.git",
-        #"package_name  @ git+https://github.com/FabianIsensee/hiddenlayer.git",
         "SimpleITK",
         "multiprocess",
         "numpy", 
