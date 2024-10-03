@@ -16,7 +16,7 @@ setup(
         # e.g., 'numpy', 'pandas'
         "shutils", "pandas", "tqdm",
         "termcolor", "glob2", "torch",
-        "nnunetv2", "SimpleITK", "multiprocessing",
+        "nnunetv2", "SimpleITK", "multiprocess",
         "numpy", "natsort",        
     ],
     classifiers=[
