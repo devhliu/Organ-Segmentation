@@ -17,7 +17,7 @@ setup(
         "shutils", "pandas", "tqdm",
         "termcolor", "glob2", "torch",
         "nnunetv2", "SimpleITK", "multiprocess",
-        "numpy", "natsort",        
+        "numpy", "natsort", "batchgenerators==0.21",        
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
