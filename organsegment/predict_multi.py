@@ -48,7 +48,7 @@ def predict_multi(list_images : list,
 
            
     if not modality in ["HQCT_SinlgeModel", "HQCT_MultiModel", "ULDCT", "GAPET", "FDGPET", "CardiacPET"]:
-        cprint(f"Error, Modality valid values are : {["HQCT_SinlgeModel", "HQCT_MultiModel", "ULDCT", "GAPET", "FDGPET", "CardiacPET"]}", "white", "on_red")
+        cprint("Error, Modality valid values are : ['HQCT_SinlgeModel', 'HQCT_MultiModel', 'ULDCT', 'GAPET', 'FDGPET', 'CardiacPET']", "white", "on_red")
         return "none"
     start_time = time.time()
     list_images = [x for x in list_images if not "--yzdnn.nii.gz" in os.path.basename(x) and not "--unified-segments" in os.path.basename(x)]
