@@ -16,7 +16,9 @@ setup(
         # e.g., 'numpy', 'pandas'
         "shutils", "pandas", "tqdm",
         "termcolor", "glob2", "torch",
-        "nnunetv2", "SimpleITK", "multiprocess",
+        "package_name @ git+https://github.com/username/repository_name.git",
+        "package_name @ git+https://github.com/FabianIsensee/hiddenlayer.git",
+        "SimpleITK", "multiprocess",
         "numpy", "natsort", "batchgenerators",        
     ],
     classifiers=[
