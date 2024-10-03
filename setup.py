@@ -14,7 +14,7 @@ setup(
     install_requires=[
         # List your dependencies here
         # e.g., 'numpy', 'pandas'
-        "shutil", "pandas", "tqdm",
+        "shutils", "pandas", "tqdm",
         "termcolor", "glob", "torch",
         "nnunetv2", "SimpleITK", "multiprocessing",
         "numpy", "natsort",        
