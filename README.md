@@ -20,3 +20,8 @@ If you use these models in your research or project, please cite the relevant pa
 For CT Modalities: https://www.medrxiv.org/content/10.1101/2023.10.20.23297331v1
 
 For PET Modalities: https://www.medrxiv.org/content/10.1101/2024.08.27.24312482v1
+
+## Installation:
+Make sure you have installed your GPU drivers and installed nnunetv2 as described in their instruction available at: https://github.com/MIC-DKFZ/nnUNet or using these commands:
+pip install --upgrade https://github.com/MIC-DKFZ/nnUNet.git
+pip install --upgrade git+https://github.com/FabianIsensee/hiddenlayer.git
