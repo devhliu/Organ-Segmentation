@@ -12,14 +12,18 @@ setup(
     packages=find_packages(),
     py_modules=["predict_multi", "ImageUtilities"],
     install_requires=[
-        # List your dependencies here
-        # e.g., 'numpy', 'pandas'
-        "shutils", "pandas", "tqdm",
-        "termcolor", "glob2", "torch",
-        "package_name @ git+https://github.com/MIC-DKFZ/nnUNet.git",
-        "package_name @ git+https://github.com/FabianIsensee/hiddenlayer.git",
-        "SimpleITK", "multiprocess",
-        "numpy", "natsort", "batchgenerators",        
+        "pandas",
+        "tqdm",
+        "termcolor",
+        "glob2", 
+        "torch",
+        "nnUNet @ git+https://github.com/MIC-DKFZ/nnUNet.git",
+        "hiddenlayer @ git+https://github.com/FabianIsensee/hiddenlayer.git",
+        "SimpleITK",
+        "multiprocess",
+        "numpy", 
+        "natsort", 
+        "batchgenerators",        
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
