@@ -23,15 +23,15 @@ Besides you can download separated models for multiple modalities here:
 
 If you use these models in your research or project, please cite the relevant papers:
 
-[For CT Modalities](https://www.medrxiv.org/content/10.1101/2023.10.20.23297331v1)
+[CT Modalities paper](https://www.medrxiv.org/content/10.1101/2023.10.20.23297331v1)
 
-[For PET Modalities](https://www.medrxiv.org/content/10.1101/2024.08.27.24312482v1)
+[PET Modalities paper](https://www.medrxiv.org/content/10.1101/2024.08.27.24312482v1)
 
 ## Installation:
 Make sure you have installed your GPU drivers and installed nnunetv2 as described in their instruction available at: https://github.com/MIC-DKFZ/nnUNet or using these commands:
 
-pip install --upgrade https://github.com/MIC-DKFZ/nnUNet.git
+`pip install --upgrade git+https://github.com/MIC-DKFZ/nnUNet.git`
 
-pip install --upgrade git+https://github.com/FabianIsensee/hiddenlayer.git
+`pip install --upgrade git+https://github.com/FabianIsensee/hiddenlayer.git`
 
-then sinply run: pip install git+https://github.com/YazdanSalimi/Organ-Segmentation.git
+then sinply run: `pip install git+https://github.com/YazdanSalimi/Organ-Segmentation.git`
