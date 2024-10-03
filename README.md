@@ -49,3 +49,6 @@ To install this repository, simply run:
 ```bash
 pip install git+https://github.com/YazdanSalimi/Organ-Segmentation.git
 ```
+We welcome any feedback, suggestions, or contributions to improve this project!
+
+for any furtehr question please email me at: [salimiyazdan@gmail.com](mailto:salimiyazdan@gmail.com)
