@@ -8,7 +8,6 @@ from tqdm import tqdm
 import time
 import timeit
 import numpy as np
-import gc
 import torch
 def predict_multi(list_images : list,
                 target = "inplace",
@@ -151,12 +150,9 @@ def predict_multi(list_images : list,
                 move_incomplete_segments = move_incomplete_segments,
                 sign_images = sign_images,
                 )
-        time.sleep(5)
-
-        gc.collect()
+        time.sleep(2)
         torch.cuda.empty_cache()
-        
-        time.sleep(5)
+        time.sleep(2)
         
         if ensemble_every_organ_as_completed and break_down_large_images:
             pool_execute(ensemble_images, list_images_to_be_ensembeled, num_workers = num_workers_breaking, desc = "    Ensembling this organ")
