@@ -22,7 +22,7 @@ For PET images, the models require body-weight SUV unit images as input. Separat
 
 [Normal CT Scan Multi-Organ Segmentation](https://drive.google.com/drive/folders/1ltmjbqfoCBzPCIeh6FgxGlpcAFYHn6eA?usp=drive_link)
 
-[Low-Dose and Ultra-Low-Dose CT Scan Multi-Organ Segmentation](https://drive.google.com/drive/folders/1Iux0_V4T9xMoeq5kLz9PuuBJxd4gJO51?usp=drive_link)
+[Low-Dose and Ultra-Low-Dose CT Scan Multi-Organ Segmentation](https://drive.google.com/drive/folders/1Iux0_V4T9xMoeq5kLz9PuuBJxd4gJO51?usp=sharing)
 
 [18FDG PET Multi-Organ Segmentation](https://drive.google.com/drive/folders/1UDmEn4ypkXhB9B38QrREcRn8Kmr_n9t2?usp=drive_link)
 
